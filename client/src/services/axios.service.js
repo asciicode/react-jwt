@@ -12,7 +12,7 @@ const getAllPrivatePosts = (tags) => {
 };
 
 const getFlickr = (tags) => {
-  return axios.get("http://localhost:3000/flickr?tags="+tags, { headers: authHeader() });
+  return axios.get("/flickr?tags="+tags, { headers: authHeader() });
 };
 
 const axiosService = {
