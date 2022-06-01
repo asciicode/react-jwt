@@ -17,7 +17,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "REACT_APP_API_URL=https://spring-security-jwt-351909.uc.r.appspot.com react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
