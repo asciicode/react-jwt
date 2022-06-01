@@ -6,14 +6,7 @@ const Home = () => {
   const [flickr, setFlickr] = useState([]);
 
   useEffect(() => {
-    // AxiosService.getFlickr().then(
-    //   (response) => {
-    //     setFlickr(response.data);
-    //   },
-    //   (error) => {
-    //     console.log(error);
-    //   }
-    // );
+    // search();
   }, []);
   function search() {
     // alert("You clicked me!"+searchText);
