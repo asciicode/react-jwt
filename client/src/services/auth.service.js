@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = "https://spring-security-jwt-351909.uc.r.appspot.com/authenticate";
+const API_URL = "/authenticate";
 
 const login = (username, password) => {
   return axios

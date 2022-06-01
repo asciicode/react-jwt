@@ -12,7 +12,7 @@ const getAllPrivatePosts = (tags) => {
 };
 
 const getFlickr = (tags) => {
-  return axios.get("https://spring-security-jwt-351909.uc.r.appspot.com/flickr?tags="+tags, { headers: authHeader() });
+  return axios.get("/flickr?tags="+tags, { headers: authHeader() });
 };
 
 const axiosService = {
