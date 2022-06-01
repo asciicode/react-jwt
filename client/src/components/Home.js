@@ -40,10 +40,9 @@ const Home = () => {
             </div>);
         })}
         </section>
-      </div>
-      ) : (
-        <div className="navbar-nav ms-auto">
         </div>
+      ) : (
+        <div></div>  
       )}
     </div>  
   );
